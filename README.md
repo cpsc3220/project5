@@ -100,7 +100,7 @@ will differ.
 ```
 
 ## Hints
- + Give all of your locks initlock names that start with "kmem".
+ + Name all of your locks in initlock() to start with "kmem".
  + You can use the constant `NCPU` from kernel/param.h
  + Let `freerange` give all free memory to the CPU running `freerange`.
  + The function `cpuid` returns the current core number, but it's only safe to 
