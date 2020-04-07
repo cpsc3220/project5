@@ -4,7 +4,7 @@ This project consists of two tasks that you will work on XV6.
 Task A aims to help you understand how to increase parallelism on a multicore architecture. 
 Task B aims to help you understand the index structure and the support of large files on XV6.
 
-# Task A: Per-Process Memory Allocator
+# Task A: Per-Process Memory Allocator (50 Points)
 
 <code>Re-designing memory allocator code in XV6 to increase parallelism.</code>
 
@@ -109,7 +109,7 @@ will differ.
  
  You can run `./grade-kalloc` to see your potential grade for this task.
 
-# Task B: Large Files
+# Task B: Large Files (50 Points)
 <code>Implement Large Files Support using doubly-indirect blocks on XV6</code>
 
 ## Overview - Large Files
