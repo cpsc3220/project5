@@ -123,13 +123,13 @@ one "singly-indirect" block number, which refers to a block that holds up to 256
 Before writing code, you should read "Chapter 7: File system" from the xv6 book and study the corresponding code.
 
 The `bigfile` user program creates the longest file it can, and reports that size:
-
+```
 $ bigfile
 ..
 wrote 268 blocks
 bigfile: file is too small
 $
-
+```
 The test fails because the longest file is only 268 blocks.
 
 You'll change the xv6 file system code to support a "doubly-indirect" block in each inode, 
