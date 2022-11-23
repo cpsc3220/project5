@@ -1,4 +1,4 @@
-# CPSC/ECE 3200: Introduction to Operating System - Project #5
+# CPSC/ECE 3220: Introduction to Operating System - Project #5
 
 This project consists of two tasks that you will work on XV6. 
 Task A aims to help you understand how to increase parallelism on a multicore architecture. 
